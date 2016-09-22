@@ -1,0 +1,1 @@
+include ':app', ':milboxtouch-sdk', ':libraries:base', ':libraries:controller', ':libraries:audio', ':libraries:panowidget', ':libraries:common', ':libraries:videowidget', ':libraries:commonwidget'
