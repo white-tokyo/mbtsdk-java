@@ -12,6 +12,12 @@ class Angle {
 
     val abs: Float
         get() = Math.abs(value)
+    val value180: Float
+        get() = if (value > 180) {
+            360 - value
+        } else {
+            value
+        }
 
 
     val angleBlock: AngleBlock
