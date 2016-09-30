@@ -185,14 +185,14 @@ public class MainActivity extends GvrActivity implements GvrView.StereoRenderer 
                 return null;
             }
         });
-        milboxView.addOnSetpuCompletedListener(new Function0<Void>() {
+        milboxView.addOnSetupCompletedListener(new Function0<Void>() {
             @Override
             public Void invoke() {
                 Log.e(TAG,"setup Complete!!");
                 return null;
             }
         });
-        milboxView.addOnSetpuProgressListener(new Function0<Void>() {
+        milboxView.addOnSetupProgressListener(new Function0<Void>() {
             @Override
             public Void invoke() {
                 Log.e(TAG,"setup Progress!!");
